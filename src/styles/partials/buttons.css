@@ -1,0 +1,10 @@
+.button {
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+}
+.button--primary {
+  background-color: var(--primary-color);
+  color: var(--on-primary);
+}
+
+/*# sourceMappingURL=buttons.css.map */
