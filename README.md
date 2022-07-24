@@ -18,7 +18,7 @@ light/dark mode demo
 - HTML/CSS
 - Javascript
 
-## Technologies:
+## Challanges:
 
 - localstorage
 - CSS custom properties
