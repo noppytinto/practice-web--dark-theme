@@ -9,7 +9,7 @@ this project is part of the learning process, the code is mine but the idea belo
 
 ## Description:
 
-dark theme demo
+light/dark mode demo
 
 <br/>
 
@@ -17,3 +17,8 @@ dark theme demo
 
 - HTML/CSS
 - Javascript
+
+## Technologies:
+
+- localstorage
+- CSS custom properties

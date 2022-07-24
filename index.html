@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Light/Dark mode - demo</title>
+  <link rel="icon" type="image/png" href="./src/images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+  <link rel="stylesheet" href="./src/styles/style.css">
+  <script defer src="./src/scripts/script.js"></script>
+</head>
+
+<body>
+
+
+  <div class="dark-mode">
+    <!-- <button type="button" class="header__dark-mode">dark mode</button> -->
+
+    <span class="dark-mode__label">Light Mode</span>
+    <i class="fas fa-sun dark-mode__icon"></i>
+    <label class="switch ">
+      <input type="checkbox" class="dark-mode__toggle">
+      <span class="slider round"></span>
+    </label>
+  </div>
+
+  <!-- /////////////////////////////////////////// -->
+  <!-- // header  -->
+  <!-- /////////////////////////////////////////// -->
+  <header class="header" id="home">
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">Home</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#about" class="header__nav-link">About</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#projects" class="header__nav-link">Projects</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#contact" class="header__nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+
+  <!-- /////////////////////////////////////////// -->
+  <!-- // main  -->
+  <!-- /////////////////////////////////////////// -->
+  <main class="main">
+    <div class="main__home">
+      <div class="main__welcome">
+        <h1 class="main__title">Custom Title Here</h1>
+        <p class="main__subtitle">Welcome to your website!</p>
+      </div>
+
+    </div>
+
+    <section class="main__about" id="about">
+      <div class="main__about-content">
+        <h1 class="main__title">Undraw Illustrations</h1>
+        <ul class="main__illustrations">
+          <li class="main__illustration-item">
+            <div class="main__subtitle">Web Innovation</div>
+            <img class="main__illustration-img" src="./src/images/undraw_proud_coder_light.svg" alt="">
+          </li>
+          <li class="main__illustration-item">
+            <div class="main__subtitle">Problem Solving</div>
+            <img class="main__illustration-img" src="./src/images/undraw_feeling_proud_light.svg" alt="">
+          </li>
+          <li class="main__illustration-item">
+            <div class="main__subtitle">High Concept</div>
+            <img class="main__illustration-img" src="./src/images/undraw_conceptual_idea_light.svg" alt="">
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section class="main__projects" id="projects">
+      <h1 class="main__title">Buttons</h1>
+    </section>
+
+    <section class="main__contact" id="contact">
+      <h1 class="main__title">contact</h1>
+    </section>
+  </main>
+
+
+
+  <!-- /////////////////////////////////////////// -->
+  <!-- // footer  -->
+  <!-- /////////////////////////////////////////// -->
+  <footer class="footer"></footer>
+
+</body>
+
+</html>
