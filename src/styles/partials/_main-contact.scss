@@ -5,3 +5,30 @@
 
   }
 }
+
+.contact {
+  &__list {
+    height: 50%;
+    max-width: 900px;
+    margin-inline: auto;
+    list-style: none;
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  &__item {
+  
+  }
+  
+  &__icon {
+    font-size: 5rem;
+    color: var(--primary-variant);
+    
+    &:hover {
+      cursor: pointer;
+      color: #6c63ff;
+    }
+  }
+}

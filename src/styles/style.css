@@ -130,7 +130,8 @@ input:checked + .slider:before {
 
 .button {
   border-radius: 0.7em;
-  padding: 1em 1.5em;
+  padding: 0.7em 1.5em;
+  border-style: solid;
   border-color: transparent;
 }
 .button:hover {
@@ -287,6 +288,7 @@ input:checked + .slider:before {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 3em;
 }
 .projects__buttons {
   list-style: none;
@@ -294,10 +296,37 @@ input:checked + .slider:before {
   gap: 1em;
   justify-content: space-between;
 }
+.projects__description {
+  padding: 1.5em;
+  max-width: 600px;
+  border-radius: 1em;
+  border-width: 1px;
+  background-color: var(--on-background-alt);
+  color: var(--on-primary);
+}
 
 .main__contact {
   text-align: center;
   height: 100vh;
+}
+
+.contact__list {
+  height: 50%;
+  max-width: 900px;
+  margin-inline: auto;
+  list-style: none;
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+  align-items: center;
+}
+.contact__icon {
+  font-size: 5rem;
+  color: var(--primary-variant);
+}
+.contact__icon:hover {
+  cursor: pointer;
+  color: #6c63ff;
 }
 
 /*# sourceMappingURL=style.css.map */
